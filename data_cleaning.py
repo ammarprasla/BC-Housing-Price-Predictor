@@ -2,7 +2,7 @@ import pandas as pd
 
 df = pd.read_csv("./raw_data.csv")
 
-bc_df = df[df["Province"] == "British Columbia"]
+bc_df = df[df["Province"] == "BC"]
 
 drop_cols = [
 "Garage","Parking","Basement","Exterior","Fireplace","Heating",
